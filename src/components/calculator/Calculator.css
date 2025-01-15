@@ -1,0 +1,119 @@
+.main-container {
+    margin-top: 60px;
+}
+
+.equations-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 71%;
+    margin: auto;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 115px;
+}
+
+.title {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.initial-value-title {
+    background-color: #E29A2D;
+}
+
+.final-output-title {
+    background-color: #4CAF79;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px;
+    border-radius: 12px;
+    height: 27px;
+    width: 100%;
+}
+
+.initial-value-input-wrapper {
+    border: 2px solid #f5c282;
+}
+
+.end-output {
+    border: 2px solid #4CAF79;
+}
+
+.number-input {
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    width: 90%;
+    text-align: center;
+    outline: none;
+}
+
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.radio-input {
+    accent-color: #4285f4;
+}
+
+.svg-style {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.initial-value-section {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    margin-top: 110px
+}
+
+.final-output-section {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    margin-top: 110px
+}
+
+.separator {
+    width: 39%;
+    height: 1px;
+    margin: 4px 0;
+    rotate: 90deg;
+}
+
+.input-separator {
+    position: absolute;
+    top: 69px;
+    right: 5px;
+    background-color: #FFEED5;
+}
+
+.output-separator {
+    position: absolute;
+    top: 69px;
+    left: 5px;
+    background-color: #C5F2DA;
+}
