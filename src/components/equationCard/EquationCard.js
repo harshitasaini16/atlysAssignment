@@ -35,11 +35,10 @@ export const EquationCard = ({ equation, index, handleEquation, order }) => {
       </div>
       <p>Equation</p>
       <input
-        className="equation-input"
+        className={`equation-input ${showError ? "error" : ""}`}
         value={inputEquation}
         onChange={handleEquationInput}
       />
-      {showError && <p className="error">This is an invalid equation</p>}
       <p>Next function</p>
       <button disabled={true}>{order ? "Function: " + order : "-"}</button>
       <img
